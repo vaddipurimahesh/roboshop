@@ -2,7 +2,7 @@
 Description=Shipping Service
 
 [Service]
-User=roboshop
+User=shell
 // highlight-start
 Environment=CART_ENDPOINT=cart.godevops.in:8080
 Environment=DB_HOST=mysql.godevops.in

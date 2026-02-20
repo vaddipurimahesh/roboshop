@@ -1,7 +1,7 @@
 [Unit]
 Description = User Service
 [Service]
-User=roboshop
+User=shell
 Environment=MONGO=true
 // highlight-start
 Environment=REDIS_URL='redis://redis.godevops.in:6379'
