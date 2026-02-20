@@ -2,7 +2,7 @@
 Description = Catalogue Service
 
 [Service]
-User=shell
+User=roboshop
 Environment=MONGO=true
 // highlight-start
 Environment=MONGO_URL="mongodb://mongodb.godevops.in:27017/catalogue"

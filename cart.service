@@ -1,7 +1,7 @@
 [Unit]
 Description = Cart Service
 [Service]
-User=shell
+User=roboshop
 // highlight-start
 Environment=REDIS_HOST=redis.godevops.in
 Environment=CATALOGUE_HOST=catalogue.godevops.in
